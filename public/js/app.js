@@ -50933,9 +50933,31 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/about.scss":
+/*!***********************************!*\
+  !*** ./resources/sass/about.scss ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./resources/sass/app.scss":
 /*!*********************************!*\
   !*** ./resources/sass/app.scss ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "./resources/sass/faq.scss":
+/*!*********************************!*\
+  !*** ./resources/sass/faq.scss ***!
   \*********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -50955,16 +50977,30 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/sass/products.scss":
+/*!**************************************!*\
+  !*** ./resources/sass/products.scss ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ 0:
-/*!****************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/home.scss ***!
-  \****************************************************************************************/
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/home.scss ./resources/sass/products.scss ./resources/sass/faq.scss ./resources/sass/about.scss ***!
+  \*****************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! C:\xampp\htdocs\new_ravencase\resources\js\app.js */"./resources/js/app.js");
 __webpack_require__(/*! C:\xampp\htdocs\new_ravencase\resources\sass\app.scss */"./resources/sass/app.scss");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\new_ravencase\resources\sass\home.scss */"./resources/sass/home.scss");
+__webpack_require__(/*! C:\xampp\htdocs\new_ravencase\resources\sass\home.scss */"./resources/sass/home.scss");
+__webpack_require__(/*! C:\xampp\htdocs\new_ravencase\resources\sass\products.scss */"./resources/sass/products.scss");
+__webpack_require__(/*! C:\xampp\htdocs\new_ravencase\resources\sass\faq.scss */"./resources/sass/faq.scss");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\new_ravencase\resources\sass\about.scss */"./resources/sass/about.scss");
 
 
 /***/ })

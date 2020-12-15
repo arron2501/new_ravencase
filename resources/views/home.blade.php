@@ -3,6 +3,9 @@
 @section('title', '100% QUALITY CUSTOM CASES | ')
 @section('home_status', 'active')
 @section('fixed-top', 'fixed-top')
+@section('css')
+    <link href="{{ asset('css/home.css') }}" rel="stylesheet">
+@stop
 
 @section('content')
 
@@ -34,7 +37,7 @@
     </div>
     {{--  END Hero Section  --}}
 
-<!--    <div id="carouselBillboard" class="carousel slide mb-5" data-ride="carousel">
+{{--    <div id="carouselBillboard" class="carousel slide mb-5" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselBillboard" data-slide-to="0" class="active"></li>
             <li data-target="#carouselBillboard" data-slide-to="1"></li>
@@ -72,7 +75,7 @@
                 </div>
             </div>
         </div>
-    </div>-->
+    </div>--}}
 
 <!--    <div id="carouselVoucher" class="carousel slide carousel-multi-item" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
@@ -268,15 +271,5 @@
         </div>
     </div>
     {{--  END Showcases Section  --}}
-
-    {{--  START Footer Section  --}}
-    <footer>
-        <div class="text-center text-white py-4">
-            <div class="footer-copyright text-center">
-                © 2020 Raven Case:<strong> All Rights Reserved.</strong>
-            </div>
-        </div>
-    </footer>
-    {{--  END Footer Section  --}}
 
 @endsection

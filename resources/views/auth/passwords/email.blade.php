@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Reset Password | ')
+@section('footer_status', 'fixed-bottom')
 
 @section('content')
 <div class="container mt-5">

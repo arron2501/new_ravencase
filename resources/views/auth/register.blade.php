@@ -2,6 +2,7 @@
 
 @section('title', 'Register | ')
 @section('register_status', 'active')
+@section('footer_status', 'fixed-bottom')
 
 @section('content')
 <div class="container mt-5">

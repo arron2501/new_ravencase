@@ -19,7 +19,8 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/home.css') }}" rel="stylesheet">
+    @yield('css')
+
 </head>
 <body>
     <div id="app">
@@ -41,17 +42,17 @@
                             </a>
                         </li>
                         <li class="nav-item @yield('cases_status')">
-                            <a href="#" class="nav-link">
+                            <a href="{{ url('/products') }}" class="nav-link">
                                 CASES
                             </a>
                         </li>
                         <li class="nav-item @yield('faq_status')">
-                            <a href="#" class="nav-link">
+                            <a href="{{ url('/faq') }}" class="nav-link">
                                 FAQ
                             </a>
                         </li>
                         <li class="nav-item @yield('about_status')">
-                            <a href="#" class="nav-link">
+                            <a href="{{ url('/about') }}" class="nav-link">
                                 ABOUT US
                             </a>
                         </li>
@@ -113,6 +114,15 @@
 
         <main>
             @yield('content')
+            {{--  START Footer Section  --}}
+            <footer>
+                <div class="text-center @yield('footer_status') text-white py-4" style="background: #1c252e">
+                    <div class="footer-copyright text-center">
+                        © 2020 Raven Case:<strong> All Rights Reserved.</strong>
+                    </div>
+                </div>
+            </footer>
+            {{--  END Footer Section  --}}
         </main>
     </div>
 </body>

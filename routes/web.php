@@ -14,10 +14,13 @@ use App\Mail\NewUserRegistrationMail;
 |
 */
 
-Route::get('/', function () {
+Route::get('/welcome', function () {
     return view('welcome');
 });
 
 Auth::routes();
 
-Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index']);
+Route::get('/products', [App\Http\Controllers\ProductsController::class, 'index']);
+Route::get('/faq', [App\Http\Controllers\FaqController::class, 'index']);
+Route::get('/about', [App\Http\Controllers\AboutController::class, 'index']);
