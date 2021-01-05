@@ -24,3 +24,8 @@ Route::get('/', [App\Http\Controllers\HomeController::class, 'index']);
 Route::get('/products', [App\Http\Controllers\ProductsController::class, 'index']);
 Route::get('/faq', [App\Http\Controllers\FaqController::class, 'index']);
 Route::get('/about', [App\Http\Controllers\AboutController::class, 'index']);
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
