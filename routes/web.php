@@ -21,7 +21,10 @@ Route::get('/welcome', function () {
 Auth::routes();
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index']);
+
 Route::get('/products', [App\Http\Controllers\ProductsController::class, 'index']);
+Route::get('/products/{product}', [App\Http\Controllers\ProductsController::class, 'show']);
+
 Route::get('/faq', [App\Http\Controllers\FaqController::class, 'index']);
 Route::get('/about', [App\Http\Controllers\AboutController::class, 'index']);
 

@@ -24,3 +24,7 @@ body {
   transform: scale(1.05);
 }
 
+[type=radio] {
+  display: none;
+}
+
