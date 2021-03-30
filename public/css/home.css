@@ -69,3 +69,11 @@
   background-repeat: no-repeat;
 }
 
+.card {
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+

@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e6a3932-5b0d-40db-9063-14656314397c" name="Default Changelist" comment="First commit">
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/faq.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/products.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/products/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/products/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +173,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -202,6 +208,22 @@
       <workItem from="1610880388856" duration="532000" />
       <workItem from="1610880929275" duration="60000" />
       <workItem from="1610883920520" duration="1368000" />
+      <workItem from="1611464915545" duration="74000" />
+      <workItem from="1611465279736" duration="65000" />
+      <workItem from="1611465409131" duration="263000" />
+      <workItem from="1612191360209" duration="22000" />
+      <workItem from="1612191417384" duration="6085000" />
+      <workItem from="1612245046074" duration="1144000" />
+      <workItem from="1613632886172" duration="137000" />
+      <workItem from="1613633162344" duration="844000" />
+      <workItem from="1614327509552" duration="1471000" />
+      <workItem from="1614360828992" duration="4756000" />
+      <workItem from="1614396154901" duration="8406000" />
+      <workItem from="1614667119347" duration="7256000" />
+      <workItem from="1614749696115" duration="1552000" />
+      <workItem from="1614843232393" duration="5320000" />
+      <workItem from="1614925170418" duration="920000" />
+      <workItem from="1617095513473" duration="43000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1607686543027</created>

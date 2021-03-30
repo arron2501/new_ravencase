@@ -18,7 +18,7 @@
         <div class="carousel-inner">
             @foreach($banners as $key => $banner)
                 <div class="carousel-item {{$key == 0 ? 'active' : '' }}">
-                    <img class="d-block w-100" src="/storage/{{ $banner['banner_image'] }}" alt="First slide">
+                    <img class="d-block w-100" src="/storage/{{ $banner['banner'] }}" alt="First slide">
                 </div>
             @endforeach
         </div>
